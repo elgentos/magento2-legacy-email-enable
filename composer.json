@@ -1,0 +1,21 @@
+{
+  "name": "elgentos/magento2-legacy-email-enable",
+  "version": "1.0.0",
+  "description": "Update existing mail templates and prevent new ones from disabling is_legacy flag",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-email": "101.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elgentos\\LegacyEmailEnable\\": ""
+    }
+  }
+}
